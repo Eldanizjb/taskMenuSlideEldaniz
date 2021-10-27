@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 40px;
+  list-style-type: none;
+  display: flex; }
+  .container .start {
+    padding: 3px 19px 24px 18px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid; }
+  .container .menu {
+    border-color: #360fe4 grey white; }
+  .container .second {
+    border-color: #cc0707 grey white; }
+  .container .third {
+    border-color: #0fe421 grey white; }
+  .container .card {
+    top: 35px;
+    position: absolute;
+    width: 45%;
+    border: 1px solid grey;
+    padding: 30px 0px 30px 4px;
+    color: white; }
+    .container .card h1 {
+      margin-bottom: 20px; }
+    .container .card p {
+      height: 50px; }
+  .container #card-1 {
+    z-index: 1;
+    background-color: #360fe4; }
+  .container #card-2 {
+    z-index: 0;
+    background-color: #cc0707; }
+  .container #card-3 {
+    z-index: 0;
+    background-color: #0fe421; }
+
+/*# sourceMappingURL=style.css.map */
